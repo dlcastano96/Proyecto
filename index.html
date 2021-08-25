@@ -13,55 +13,44 @@
 <body>
     <div class="queryPageContainer">
         <div class="titlesContainer">
-            <h1>Inscripción empresas</h1>
+            <h1>Formulario Taller 1</h1>
             <h2>ecommerce</h2>
         </div>
         <div>
             <form>
                 <div class="form-group">
-                  <label for="nameProperty">Nombre o Razón social</label>
+                  <label for="nameProperty">Nombres</label>
                   <input type="text" class="form-control" id="nameProperty" placeholder="">
                 </div>
                 <div class="form-group">
-                  <label for="typeProperty">Tipo de identificación</label>
-                  <select class="form-control" id="typeProperty">
-                    <option value="Casa">CC</option>
-                    <option value="Apartamento">NIT</option>
-                  </select>
+                    <label for="nameProperty">Apellidos</label>
+                    <input type="text" class="form-control" id="nameProperty" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="addressProperty">Número de identificación</label>
+                    <label for="addressProperty">Teléfono</label>
                     <input type="text" class="form-control" id="addressProperty" placeholder="">
                 </div>                
                 <div class="form-group">
-                    <label for="addressProperty">Usuario</label>
+                    <label for="addressProperty">Dirección</label>
                     <input type="text" class="form-control" id="addressProperty" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="addressProperty">Clave</label>
-                    <input type="password" class="form-control" id="addressProperty" placeholder="">
+                    <label for="addressProperty">Fecha de nacimiento</label><br>
+                    <input type="date" id="start" name="trip-start" value="2018 -07-22" min="2018-01-01" max="2018-12-31">
+                    <!--<input type="password" class="form-control" id="addressProperty" placeholder=""> -->
                 </div>
                 <div class="form-group">
                     <label for="addressProperty">Correo electrónico</label>
                     <input type="text" class="form-control" id="addressProperty" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="addressProperty">País</label>
-                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                    <label for="addressProperty">Contraseña</label>
+                    <input type="password" class="form-control" id="addressProperty" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="addressProperty">Ciudad</label>
-                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                    <label for="addressProperty">Confirmar contraseña</label>
+                    <input type="password" class="form-control" id="addressProperty" placeholder="">
                 </div>
-                <div class="form-group">
-                    <label for="addressProperty">Dirección física</label>
-                    <input type="text" class="form-control" id="addressProperty" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="addressProperty">Código cámara de comercio</label>
-                    <input type="text" class="form-control" id="addressProperty" placeholder="">
-                </div>
-
             </form>
               <div class="createButtonContainer">
                 <button type="submit" class="btn btn-primary" id="createButton">Envíar</button>
