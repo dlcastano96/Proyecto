@@ -1,0 +1,20 @@
+.queryPageContainer
+{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.titlesContainer{
+    text-align: center;
+}
+
+.backContainer
+{
+    margin-top: 20px;
+}
+
+.createButtonContainer{
+    text-align: center;
+}
