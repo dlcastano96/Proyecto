@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de gestion inmobiliaria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="queryPageContainer">
+        <div class="titlesContainer">
+            <h1>Inscripción empresas</h1>
+            <h2>ecommerce</h2>
+        </div>
+        <div>
+            <form>
+                <div class="form-group">
+                  <label for="nameProperty">Nombre o Razón social</label>
+                  <input type="text" class="form-control" id="nameProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="typeProperty">Tipo de identificación</label>
+                  <select class="form-control" id="typeProperty">
+                    <option value="Casa">CC</option>
+                    <option value="Apartamento">NIT</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Número de identificación</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>                
+                <div class="form-group">
+                    <label for="addressProperty">Usuario</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Clave</label>
+                    <input type="password" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Correo electrónico</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">País</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Ciudad</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Dirección física</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="addressProperty">Código cámara de comercio</label>
+                    <input type="text" class="form-control" id="addressProperty" placeholder="">
+                </div>
+
+            </form>
+              <div class="createButtonContainer">
+                <button type="submit" class="btn btn-primary" id="createButton">Envíar</button>
+              </div>
+          </form>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="estilos.css">
+</body>
+</html>
